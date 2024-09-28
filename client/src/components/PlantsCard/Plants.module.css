@@ -1,0 +1,41 @@
+.Card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.PlantName{
+    width: 100%;
+}
+.fullImage{
+    width: 55%;
+    margin-right: 2%;
+}
+.aboutPrice{
+    width: 40%;
+}
+.about{
+    height: 60%;
+}
+.price{
+    height: 20%;
+}
+.Image{
+    width: 100%;
+    height: 100%;
+}
+.divButton{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+}
+.button{
+    height: 50%;
+    width: 80%;
+    background-color: mediumseagreen;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: #61dafb;
+    transition: 2s;
+    offset-after: initial;
+}
